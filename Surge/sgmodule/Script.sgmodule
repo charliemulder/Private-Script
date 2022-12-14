@@ -6,7 +6,5 @@
 # Ariszy
 
 http-response https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path= https://raw.githubusercontent.com/Ariszy/Private-Script/master/rewrite/picsew.js, requires-body=true, timeout=10, tag=Picsew專業版
-http-response ^https://account.wps.*/api/users/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, tag=WPSpt/master/Surge/JS/BaiduCloud.js, tag=百度网盘倍速
-
 [MITM]
 hostname = %APPEND% buy.itunes.apple.com,api2.mubu.com,vip1.kuwo.cn,account.wps.cn, pan.baidu.com
